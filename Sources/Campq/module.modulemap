@@ -1,0 +1,6 @@
+module Campq [system] {
+    header "shim.h"
+    link "librabbitmq"
+    
+    export *
+}
